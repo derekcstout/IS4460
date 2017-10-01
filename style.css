@@ -1,0 +1,45 @@
+/*body{
+  background-color: black;
+}
+This is turning all of our pages black
+suggestion: give the homepage a unique id=homepage so you can apply whatever color 
+w/out affecting the other pages -- see below */
+#homepage {
+  background-color: black;
+}
+
+#logo{
+    display: block;
+    margin: 50px auto;
+}
+
+#address{
+  margin-left: 200px;
+}
+
+/* Erica's  - Please do not delete - 
+this resizes the search bars to fit the size of whatever column they are placed in*/
+.input-group {
+    width: 100%;
+}
+/*to style customer review on restaurant-list page*/
+#restaurant{
+	padding: 5px;
+}
+
+#main {
+	padding-left: 1%;
+}
+
+#cuisine {
+	padding-bottom: 10%;
+}
+/*left-navbar --Discontinued 
+.navbar-fixed-left {
+  width: 250px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+  margin-top: -20px;
+  padding-left: 20px;
+}/*END of Erica's CSS*/
